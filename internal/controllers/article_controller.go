@@ -17,7 +17,6 @@ func NewArticleController(service services.ArticleService) *ArticleController {
 	return &ArticleController{service: service}
 }
 
-// Create - cria um novo artigo
 func (c *ArticleController) Create(ctx *gin.Context) {
 	var req models.CreateArticleRequest
 
@@ -35,7 +34,6 @@ func (c *ArticleController) Create(ctx *gin.Context) {
 	ctx.JSON(http.StatusCreated, article)
 }
 
-// List - lista todos os artigos
 func (c *ArticleController) List(ctx *gin.Context) {
 	articles, err := c.service.GetAll()
 	if err != nil {
@@ -45,7 +43,6 @@ func (c *ArticleController) List(ctx *gin.Context) {
 	ctx.JSON(http.StatusOK, articles)
 }
 
-// GetByID - busca um artigo pelo ID
 func (c *ArticleController) GetByID(ctx *gin.Context) {
 	idParam := ctx.Param("id")
 	id, err := strconv.ParseUint(idParam, 10, 64)
@@ -54,7 +51,7 @@ func (c *ArticleController) GetByID(ctx *gin.Context) {
 		return
 	}
 
-	article, err := c.service.GetByID(uint(id))
+	article, err := c.service.GetById(uint(id))
 	if err != nil {
 		ctx.JSON(http.StatusNotFound, gin.H{"error": "Artigo não encontrado"})
 		return
@@ -63,7 +60,6 @@ func (c *ArticleController) GetByID(ctx *gin.Context) {
 	ctx.JSON(http.StatusOK, article)
 }
 
-// Update - atualiza parcialmente um artigo
 func (c *ArticleController) Update(ctx *gin.Context) {
 	idParam := ctx.Param("id")
 	id, err := strconv.ParseUint(idParam, 10, 64)
@@ -87,7 +83,6 @@ func (c *ArticleController) Update(ctx *gin.Context) {
 	ctx.JSON(http.StatusOK, article)
 }
 
-// Delete - remove um artigo pelo ID
 func (c *ArticleController) Delete(ctx *gin.Context) {
 	idParam := ctx.Param("id")
 	id, err := strconv.ParseUint(idParam, 10, 64)
