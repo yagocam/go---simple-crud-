@@ -24,6 +24,20 @@
             </set>
           </value>
         </entry>
+        <entry key="Logger">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config/logger.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Post">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/schemas/post.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="UpdateArticleRequest">
           <value>
             <set>
@@ -42,6 +56,25 @@
     </option>
     <option name="scannedPathMapping">
       <map>
+        <entry key="file://$PROJECT_DIR$/config/config.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755009764380" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/config/logger.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755009520651" />
+              <option name="schema">
+                <list>
+                  <option value="Logger" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/handler/createPost.go">
           <value>
             <ScannedPath>
@@ -120,7 +153,7 @@
         <entry key="file://$PROJECT_DIR$/internal/models/article.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1754934985524" />
+              <option name="lastModified" value="1755007307501" />
               <option name="schema">
                 <list>
                   <option value="Article" />
@@ -160,7 +193,7 @@
         <entry key="file://$PROJECT_DIR$/main.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1754963443890" />
+              <option name="lastModified" value="1755009663358" />
             </ScannedPath>
           </value>
         </entry>
@@ -178,6 +211,18 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/schemas/post.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755007518186" />
+              <option name="schema">
+                <list>
+                  <option value="Post" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="tableStructMapping">
@@ -186,6 +231,8 @@
         <entry key="article_controller" value="ArticleController" />
         <entry key="article_service" value="articleService" />
         <entry key="create_article_request" value="CreateArticleRequest" />
+        <entry key="logger" value="Logger" />
+        <entry key="post" value="Post" />
         <entry key="update_article_request" value="UpdateArticleRequest" />
       </map>
     </option>
