@@ -11,7 +11,7 @@ import (
 func DeletePostHandler(ctx *gin.Context) {
 	id := ctx.Query("id")
 	if id == "" {
-		ctx.JSON(http.StatusBadRequest, gin.H{"error": "id is required"})
+		ctx.JSON(http.StatusBadRequest, gin.H{"error": "Id obrigatorio"})
 		return
 	}
 
