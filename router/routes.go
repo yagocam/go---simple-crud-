@@ -1,10 +1,38 @@
 package router
 
-import "github.com/gin-gonic/gin"
+import (
+	"net/http"
+
+	"github.com/gin-gonic/gin"
+)
 
 func initializeRoutes(router *gin.Engine) {
 	api := router.Group("/api/")
 	{
-		api.GET("/")
+		api.GET("/post", func(ctx *gin.Context) {
+			ctx.JSON(http.StatusOK, gin.H{
+				"message": "get post",
+			})
+		})
+		api.GET("/posts", func(ctx *gin.Context) {
+			ctx.JSON(http.StatusOK, gin.H{
+				"message": "get posts",
+			})
+		})
+		api.POST("/posts", func(ctx *gin.Context) {
+			ctx.JSON(http.StatusCreated, gin.H{
+				"message": "POST posts",
+			})
+		})
+		api.PUT("/posts", func(ctx *gin.Context) {
+			ctx.JSON(http.StatusCreated, gin.H{
+				"message": "PUT posts",
+			})
+		})
+		api.DELETE("/posts", func(ctx *gin.Context) {
+			ctx.JSON(http.StatusCreated, gin.H{
+				"message": "DEL posts",
+			})
+		})
 	}
 }
