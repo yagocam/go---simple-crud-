@@ -134,7 +134,7 @@
         <entry key="file://$PROJECT_DIR$/handler/request.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755016869491" />
+              <option name="lastModified" value="1755016999554" />
               <option name="schema">
                 <list>
                   <option value="CreatePostRequest" />
@@ -161,6 +161,13 @@
           <value>
             <ScannedPath>
               <option name="lastModified" value="1755006871436" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/handler/validation.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755016999568" />
             </ScannedPath>
           </value>
         </entry>
