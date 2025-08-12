@@ -42,6 +42,62 @@
     </option>
     <option name="scannedPathMapping">
       <map>
+        <entry key="file://$PROJECT_DIR$/handler/createPost.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755006993722" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/handler/deletePost.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755006993571" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/handler/deletePosts.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755006876360" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/handler/handler.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755006950723" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/handler/listPosts.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755006993539" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/handler/showPost.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755006993597" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/handler/updatePost.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755006993678" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/handler/updatePosts.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755006871436" />
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/internal/controllers/article_controller.go">
           <value>
             <ScannedPath>
@@ -118,7 +174,7 @@
         <entry key="file://$PROJECT_DIR$/router/routes.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755006334498" />
+              <option name="lastModified" value="1755006752779" />
             </ScannedPath>
           </value>
         </entry>
