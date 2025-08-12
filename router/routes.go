@@ -19,17 +19,17 @@ func initializeRoutes(router *gin.Engine) {
 				"message": "get posts",
 			})
 		})
-		api.POST("/posts", func(ctx *gin.Context) {
+		api.POST("/post", func(ctx *gin.Context) {
 			ctx.JSON(http.StatusCreated, gin.H{
 				"message": "POST posts",
 			})
 		})
-		api.PUT("/posts", func(ctx *gin.Context) {
+		api.PUT("/post", func(ctx *gin.Context) {
 			ctx.JSON(http.StatusCreated, gin.H{
 				"message": "PUT posts",
 			})
 		})
-		api.DELETE("/posts", func(ctx *gin.Context) {
+		api.DELETE("/post", func(ctx *gin.Context) {
 			ctx.JSON(http.StatusCreated, gin.H{
 				"message": "DEL posts",
 			})
