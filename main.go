@@ -1,11 +1,23 @@
 package main
 
-import "awesomeProject/router"
+import (
+	"awesomeProject/config"
+	"awesomeProject/router"
+)
 
 //TIP <p>To run your code, right-click the code and select <b>Run</b>.</p> <p>Alternatively, click
 // the <icon src="AllIcons.Actions.Execute"/> icon in the gutter and select the <b>Run</b> menu item from here.</p>
 
-func main() {
-	router.Initialize()
+var (
+	logger *config.Logger
+)
 
+func main() {
+	logger = config.GetLogger("main")
+	err := config.Init()
+	if err != nil {
+		logger.Errorf("config initialization error: %v", err)
+		return
+	}
+	router.Initialize()
 }
