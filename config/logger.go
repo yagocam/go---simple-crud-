@@ -14,9 +14,9 @@ type Logger struct {
 	writer  io.Writer
 }
 
-func newLogger() *Logger {
+func newLogger(p string) *Logger {
 	writer := io.MultiWriter(os.Stdout)
-	logger := log.New(writer, "", log.Ldate|log.Ltime|log.Lshortfile)
+	logger := log.New(writer, p, log.Ldate|log.Ltime|log.Lshortfile)
 
 	return &Logger{
 		debug:   log.New(writer, "DEBUG: ", logger.Flags()),
