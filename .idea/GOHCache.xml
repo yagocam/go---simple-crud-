@@ -27,6 +27,7 @@
         <entry key="CreatePostRequest">
           <value>
             <set>
+              <option value="file://$PROJECT_DIR$/handler/post_request.go" />
               <option value="file://$PROJECT_DIR$/handler/request.go" />
             </set>
           </value>
@@ -48,6 +49,7 @@
         <entry key="PostResponse">
           <value>
             <set>
+              <option value="file://$PROJECT_DIR$/handler/post_response.go" />
               <option value="file://$PROJECT_DIR$/schemas/post.go" />
             </set>
           </value>
@@ -56,6 +58,13 @@
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/internal/models/article.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UpdatePostRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/handler/post_request.go" />
             </set>
           </value>
         </entry>
@@ -99,7 +108,7 @@
         <entry key="file://$PROJECT_DIR$/handler/createPost.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755016867144" />
+              <option name="lastModified" value="1755018856948" />
             </ScannedPath>
           </value>
         </entry>
@@ -131,6 +140,31 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/handler/post_request.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755018527915" />
+              <option name="schema">
+                <list>
+                  <option value="CreatePostRequest" />
+                  <option value="UpdatePostRequest" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/handler/post_response.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755019190803" />
+              <option name="schema">
+                <list>
+                  <option value="PostResponse" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/handler/request.go">
           <value>
             <ScannedPath>
@@ -140,6 +174,13 @@
                   <option value="CreatePostRequest" />
                 </list>
               </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/handler/response.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755019192100" />
             </ScannedPath>
           </value>
         </entry>
@@ -254,11 +295,10 @@
         <entry key="file://$PROJECT_DIR$/schemas/post.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755012971688" />
+              <option name="lastModified" value="1755018917052" />
               <option name="schema">
                 <list>
                   <option value="Post" />
-                  <option value="PostResponse" />
                 </list>
               </option>
             </ScannedPath>
@@ -277,6 +317,7 @@
         <entry key="post" value="Post" />
         <entry key="post_response" value="PostResponse" />
         <entry key="update_article_request" value="UpdateArticleRequest" />
+        <entry key="update_post_request" value="UpdatePostRequest" />
       </map>
     </option>
     <option name="lastTimeChecked" value="1754963879769" />

@@ -12,8 +12,12 @@ func CreatePostHandler(ctx *gin.Context) {
 		errors := GetValidationErrors(err)
 		ctx.JSON(http.StatusBadRequest, gin.H{"error": errors})
 	}
-	if err := db.Create(&request).Error; err != nil {
+	post := request.ToPost()
+
+	if err := db.Create(&post).Error; err != nil {
 		logger.Errorf("create post error: %v", err)
+		ctx.JSON(http.StatusInternalServerError, gin.H{"error": err})
 		return
 	}
+	sendSuccess(ctx, "createPost", ToPostResponse(post))
 }
