@@ -108,14 +108,14 @@
         <entry key="file://$PROJECT_DIR$/handler/createPost.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755018856948" />
+              <option name="lastModified" value="1755021058468" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/handler/deletePost.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755006993571" />
+              <option name="lastModified" value="1755019783654" />
             </ScannedPath>
           </value>
         </entry>
@@ -295,7 +295,7 @@
         <entry key="file://$PROJECT_DIR$/schemas/post.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755018917052" />
+              <option name="lastModified" value="1755020971882" />
               <option name="schema">
                 <list>
                   <option value="Post" />
