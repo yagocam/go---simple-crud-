@@ -8,7 +8,7 @@ type Article struct {
 	Title   string   `json:"title"`
 	Author  string   `json:"author"`
 	Content string   `json:"content"`
-	Tags    []string `json:"tags" gorm:"type:text[]"`
+	Tags    []string `gorm:"type:text" json:"tags" gorm:"serializer:json"`
 }
 
 type CreateArticleRequest struct {

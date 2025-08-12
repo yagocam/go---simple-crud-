@@ -59,7 +59,7 @@
         <entry key="file://$PROJECT_DIR$/config/config.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755009764380" />
+              <option name="lastModified" value="1755011144207" />
             </ScannedPath>
           </value>
         </entry>
@@ -72,6 +72,13 @@
                   <option value="Logger" />
                 </list>
               </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/config/sqlite.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1755011003163" />
             </ScannedPath>
           </value>
         </entry>
