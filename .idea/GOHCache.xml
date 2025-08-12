@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GoORMHelperCache">
+    <option name="schemaMapping">
+      <map>
+        <entry key="Article">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/internal/models/article.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ArticleController">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/internal/controllers/article_controller.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="CreateArticleRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/internal/models/article.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UpdateArticleRequest">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/internal/models/article.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="articleService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/internal/services/article_service.go" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="scannedPathMapping">
+      <map>
+        <entry key="file://$PROJECT_DIR$/internal/controllers/article_controller.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1754951361942" />
+              <option name="schema">
+                <list>
+                  <option value="ArticleController" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/controllers/user_controller.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1754930241118" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/models/article.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1754934985524" />
+              <option name="schema">
+                <list>
+                  <option value="Article" />
+                  <option value="CreateArticleRequest" />
+                  <option value="UpdateArticleRequest" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/models/db.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1754931242145" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/services/article_service.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1754951235277" />
+              <option name="schema">
+                <list>
+                  <option value="articleService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/internal/services/article_service_interface.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1754935290278" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1754963443890" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/router/router.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1754964127354" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/router/routes.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1754964589217" />
+            </ScannedPath>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tableStructMapping">
+      <map>
+        <entry key="article" value="Article" />
+        <entry key="article_controller" value="ArticleController" />
+        <entry key="article_service" value="articleService" />
+        <entry key="create_article_request" value="CreateArticleRequest" />
+        <entry key="update_article_request" value="UpdateArticleRequest" />
+      </map>
+    </option>
+    <option name="lastTimeChecked" value="1754963879769" />
+  </component>
+</project>
