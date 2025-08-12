@@ -136,7 +136,7 @@
         <entry key="file://$PROJECT_DIR$/handler/listPosts.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755021408366" />
+              <option name="lastModified" value="1755022913378" />
             </ScannedPath>
           </value>
         </entry>
@@ -295,7 +295,7 @@
         <entry key="file://$PROJECT_DIR$/schemas/post.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1755020971882" />
+              <option name="lastModified" value="1755022506009" />
               <option name="schema">
                 <list>
                   <option value="Post" />
