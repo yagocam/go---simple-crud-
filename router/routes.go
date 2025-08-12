@@ -7,6 +7,7 @@ import (
 )
 
 func initializeRoutes(router *gin.Engine) {
+	handler.InitializeHandler()
 	api := router.Group("/api/")
 	{
 		api.GET("/post", handler.ShowPostHandler)
